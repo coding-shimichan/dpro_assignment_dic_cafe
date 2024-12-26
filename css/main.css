@@ -134,7 +134,35 @@
   text-align: center;
 }
 
+.coffee_menu_list {
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.coffee_menu_item {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  width: 49%;
+  padding: 10px;
+}
+
+.coffee_menu_text {
+  width: 80%;
+  font-family: "Noto Serif JP", serif;
+  padding: 10px;
+}
+
+.coffee_menu_text h2 {
+  font-size: 18px;
+}
+
 .coffee_menu_image {
   width: 20%;
   border-radius: 50%;
+  object-fit: contain;
 }
