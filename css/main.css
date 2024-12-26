@@ -166,3 +166,17 @@
   border-radius: 50%;
   object-fit: contain;
 }
+
+.store_info_line {
+  display: flex;
+  margin: 16px;
+}
+
+.store_info_label {
+  width: 80px;
+}
+
+.store_info_section iframe {
+  width: 100%;
+  height: 600px;
+}
