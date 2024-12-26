@@ -62,9 +62,12 @@
 .section_title {
   font-family: "Noto Serif JP", serif;
   font-optical-sizing: auto;
-  font-weight: bold;
   text-align: center;
   margin-bottom: 50px;
+}
+
+.section_title h2 {
+  font-weight: bold;
 }
 
 .concept_inner {
@@ -81,7 +84,9 @@
 }
 
 .menu_section {
-  background: center / cover no-repeat url("../images/sample_menu_bg.jpg");
+  background: url("../images/sample_menu_bg.jpg") no-repeat bottom;
+  background-size: 100%;
+  background-attachment: fixed;
 }
 
 .recommended_menu_list {
