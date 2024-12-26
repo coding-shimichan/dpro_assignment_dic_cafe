@@ -80,6 +80,16 @@
   width: 35%;
 }
 
+.menu_section {
+  background: center / cover no-repeat url("../images/sample_menu_bg.jpg");
+}
+
+.recommended_menu_list {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
 .menu_title {
   display: inline-block;
   color: #42210b;
@@ -89,6 +99,35 @@
   font-size: 1.5rem;
   border-bottom: solid #42210b 1px;
   margin-bottom: 20px;
+}
+
+.menu_card {
+  width: 49%;
+  background-color: #fff;
+  display: flex;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.menu_card_text {
+  width: 45%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Noto Serif JP", serif;
+}
+
+.menu_card_title {
+  font-size: 18px;
+}
+
+.menu_card_image {
+  width: 55%;
+}
+
+.price_text {
+  text-align: right;
 }
 
 .center {
