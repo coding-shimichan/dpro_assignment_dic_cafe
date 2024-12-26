@@ -67,6 +67,19 @@
   margin-bottom: 50px;
 }
 
+.concept_inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.concept_text {
+  width: 60%;
+}
+
+.concept_image {
+  width: 35%;
+}
+
 .menu_title {
   display: inline-block;
   color: #42210b;
